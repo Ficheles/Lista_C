@@ -1,0 +1,29 @@
+17. Identifique, sem usar o computador para isto, os erros dos programas abaixo:
+a) main()  // Falta chave de abertura
+ int i ;
+scanf(" %f", &i);  // a variavel é inteiro deveria ter o formato %d
+printf( " Valor igual a %d \n", i);
+}
+b) main()
+{ int i ;
+scanf(" %d", &x);
+printf( " Valor igual a %d /n", &i);  // para impressão do valor não se sua & pois referencia o endereço da variavel
+}
+c) Main()
+{ int i ;
+scanf(" %d", &i);
+printf( " Valor igual a % \n", i); } // faltou definição do tipo que deveria ser %d
+d) main()
+{ int a, b, c:
+float x;
+x = 3,5;  // utiliza-se o "."(ponto) como separador decimal
+c = 3 . a - 4 . b ; // utiliza-se * para multiplicar
+d = x + c;  // A variavel de não esta declarada
+printf( " x igual a %d \n ", x);  // a definição correta para impressao desta variavel é  %f
+printf (" c e d são respectivamente iguais a %d %f \n ", c, d); } // a variavel d não está declarada
+e) main()
+{ char ch; float x, y ;
+ch = ‘ a ‘;
+x = 3;
+y = x * ch; // não da para realizar calculo com caracteres 
+printf ( "y = %d \n ", y); } // o formato da variavel esta incorreto deveria ser %f
