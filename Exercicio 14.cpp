@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char** argv) {
 	// Declaracao de variavies
@@ -17,7 +18,8 @@ int main(int argc, char** argv) {
 	// Saida de dados
 	printf("\nA quantida de em horas de estudo em 30 dias: %.2f\n\n", horas);
 		
-	system("pause");
-	//getch(); // Aguardar tecla para sair
+	//system("pause");
+	printf("Precione qualquer tecla para encerar...");
+	getch(); // Aguardar tecla para sair
 	return 0;
 }

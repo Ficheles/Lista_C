@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char** argv) {
 	// Declaracao de variavies
@@ -22,7 +23,8 @@ int main(int argc, char** argv) {
 	printf("A distancia em metros: %.2f\n", metros);
 	printf("A distancia em km: %.2f\n\n", km);
 		
-	system("pause");
-	//getch(); // Aguardar tecla para sair
+	//system("pause");
+	printf("Precione qualquer tecla para encerar...");
+	getch(); // Aguardar tecla para sair
 	return 0;
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char** argv) {
 	// Declaracao de variavies
@@ -22,7 +23,8 @@ int main(int argc, char** argv) {
 	printf("O valor da conta da residencia: %.2f\n", valor_conta);
 	printf("O valor da conta com desconto de 15%: %.2f\n\n", valor_com_desconto);
 	
-	system("pause");
-	//getch(); // Aguardar tecla para sair
+	//system("pause");
+	printf("Precione qualquer tecla para encerar...");
+	getch(); // Aguardar tecla para sair
 	return 0;
 }

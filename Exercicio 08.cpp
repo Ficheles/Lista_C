@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
+#include <conio.h>
 
 int main(int argc, char** argv) {
 	// Declaracao de variavies
@@ -31,7 +32,8 @@ int main(int argc, char** argv) {
 	// Saida de dados
 	printf("\nO valor total economizado: %.2f\n\n", total);
 	
-	system("pause");
-	//getch(); // Aguardar tecla para sair
+	//system("pause");
+	printf("Precione qualquer tecla para encerar...");
+	getch(); // Aguardar tecla para sair
 	return 0;
 }
